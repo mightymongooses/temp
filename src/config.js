@@ -22,64 +22,43 @@ const hashImages = true;
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 1000,
+    growEditionSizeTo: 10,
   layersOrder: [
-    { name: "0-FeMale Warrior" },
-    { name: "1-female-background" },
-    { name: "2-female-tail" },
-    { name: "7-police-hair" },
-    { name: "3-female-body" },
-    { name: "4-female-eyes" },
-    { name: "5-female-mouth" },
-    { name: "6-police-sunglasses" },
-    { name: "8-hat-police army" },
-    { name: "9-handobjetcs-police-army" },
-    { name: "10-female-LegToes" },
-    { name: "11-1-3-armybag" },
-    { name: "11-1-shirs-police-army" },
-  
-    { name: "11-2-pants-army-police" },
-    { name: "12-Shoes-police-army" },
+    { name: "Back Accessory" },
+    { name: "Head" },
+    { name: "Clothes" },
+    { name: "Eyes" },
+    { name: "Hair" },
+    { name: "Head Accessory" },
+    { name: "Shirt Accessories" },
   ],
 },
 
 //regualr peon lady
 {
-  growEditionSizeTo: 2000,
+  growEditionSizeTo: 20,
   layersOrder: [
-      { name: "0-FeMale Warrior" },
-      { name: "1-female-background" },
-      { name: "2-female-tail" },
-      { name: "3-female-body" },
-      { name: "4-female-eyes" },
-      { name: "5-female-mouth" },
-      { name: "7-hair-peon" },
-      { name: "8-peon-hat" },
-      { name: "9-handobjects-peon" },
-      { name: "10-female-LegToes" },
-      { name: "11-1-peon-shirt" },
-      { name: "12-shoe-peon" },
+    { name: "Back Accessory" },
+    { name: "Head" },
+    { name: "Clothes" },
+    { name: "Eyes" },
+    { name: "Hair" },
+    { name: "Head Accessory" },
+    { name: "Shirt Accessories" },
   ],
 },
 
 //regualr tribe lady
 {
-  growEditionSizeTo: 3000,
+  growEditionSizeTo: 30,
   layersOrder: [
-      { name: "0-FeMale Warrior" },
-      { name: "1-female-background" },
-      { name: "2-female-tail" },
-      { name: "9-handobjects-tribe-backarrows" },
-      { name: "3-female-body" },
-      { name: "4-female-eyes" },
-      { name: "5-female-mouth" },
-      { name: "7-tribe-hair" },
-      { name: "9-handobjects-tribe" },
-      { name: "10-female-LegToes" },
-      { name: "11-tribe-dress" },
-      { name: "11-tribe-pant" },
-      { name: "12-shoes-none" },
-      { name: "12-1-tribe-ornaments" },
+    { name: "Back Accessory" },
+    { name: "Head" },
+    { name: "Clothes" },
+    { name: "Eyes" },
+    { name: "Hair" },
+    { name: "Head Accessory" },
+    { name: "Shirt Accessories" },
   ],
 },
 
@@ -89,132 +68,11 @@ const layerConfigurations = [
 
 //////////////////////////////////////////////
 
-/* //regualr doctor executive
-{
-growEditionSizeTo: 20,
-layersOrder: [
-    { name: "0-Male Warrior" },
-    { name: "1-male-background" },
-    { name: "2-male-tail" },
-    { name: "3-male-body" },
-    { name: "4-male-eyes" },
-    { name: "5-male-mouth" },
-    { name: "7-hair-executive and doctor" },
-    { name: "6-male-Sunglasses" }, 
-    { name: "6-male-Sunglasses", display_type: 'boost_number' },
-    { name: "9-handobjects-ex doctor" },
-    { name: "10-male-LegToes" },
-    
-    { name: "11-2-doctor-executive-pants" },
-    { name: "11-2-doctor-shirt-executive" },
-    { name: "12-doctor-shoes" },
-],
-}, 
- */
-
-
-/* //regualr advocate
-{
-growEditionSizeTo: 25,
-layersOrder: [
-    { name: "0-Male Warrior" },
-    { name: "1-male-background" },
-    { name: "2-male-tail" },
-    { name: "3-male-body" },
-    { name: "4-male-eyes" },
-    { name: "5-male-mouth" },
-    { name: "7-advocate-hair" },
-    
-    { name: "11-1-Shirt-advocate" },
-    { name: "9-hand-objects-advocate" },
-    { name: "10-male-LegToes" },
-],
-}, */
-
-/* //regualr shoolam 
-{
-growEditionSizeTo: 30,
-layersOrder: [
-    { name: "0-Male Warrior" },
-    { name: "1-male-background" },
-    { name: "2-male-tail" },
-    { name: "3-male-body" },
-    { name: "4-male-eyes" },
-    { name: "5-male-mouth" },
-    { name: "7-shoolam-hair" },
-    { name: "11-2-shoolam-boy-shirt" },
-    { name: "12-shoolam-pants" },
-    { name: "9-handobject-shoolam boy" },
-    { name: "10-male-LegToes" },
-    { name: "12-Shoes-shoolam" },
-],
-}, */
 
 ];
 
 const MalelayerConfigurations = [
-  /* {
-    growEditionSizeTo: 5,
-  layersOrder: [
-    { name: "0-FeMale Warrior" },
-    { name: "1-female-background" },
-    { name: "2-female-tail" },
-    { name: "7-police-hair" },
-    { name: "3-female-body" },
-    { name: "4-female-eyes" },
-    { name: "5-female-mouth" },
-    { name: "6-police-sunglasses" },
-    { name: "8-hat-police army" },
-    { name: "9-handobjetcs-police-army" },
-    { name: "10-female-LegToes" },
-    { name: "11-1-3-armybag" },
-    { name: "11-1-shirs-police-army" },
-  
-    { name: "11-2-pants-army-police" },
-    { name: "12-Shoes-police-army" },
-  ],
-}, */
-
-/* //regualr peon lady
-{
-  growEditionSizeTo: 10,
-  layersOrder: [
-      { name: "0-FeMale Warrior" },
-      { name: "1-female-background" },
-      { name: "2-female-tail" },
-      { name: "3-female-body" },
-      { name: "4-female-eyes" },
-      { name: "5-female-mouth" },
-      { name: "7-hair-peon" },
-      { name: "8-peon-hat" },
-      { name: "9-handobjects-peon" },
-      { name: "10-female-LegToes" },
-      { name: "11-1-peon-shirt" },
-      { name: "12-shoe-peon" },
-  ],
-}, */
-
-/* //regualr tribe lady
-{
-  growEditionSizeTo: 15,
-  layersOrder: [
-      { name: "0-FeMale Warrior" },
-      { name: "1-female-background" },
-      { name: "2-female-tail" },
-      { name: "9-handobjects-tribe-backarrows" },
-      { name: "3-female-body" },
-      { name: "4-female-eyes" },
-      { name: "5-female-mouth" },
-      { name: "7-tribe-hair" },
-      { name: "9-handobjects-tribe" },
-      { name: "10-female-LegToes" },
-      { name: "11-tribe-dress" },
-      { name: "11-tribe-pant" },
-      { name: "12-shoes-none" },
-      { name: "12-1-tribe-ornaments" },
-  ],
-},
- */
+ 
 //////////////////////////////////////////////
 
 ///MALE////
@@ -223,23 +81,16 @@ const MalelayerConfigurations = [
 
 //regualr doctor executive
 {
-growEditionSizeTo: 1000,
+growEditionSizeTo: 40,
 layersOrder: [
-    { name: "0-Male Warrior" },
-    { name: "1-male-background" },
-    { name: "2-male-tail" },
-    { name: "3-male-body" },
-    { name: "4-male-eyes" },
-    { name: "5-male-mouth" },
-    { name: "7-hair-executive and doctor" },
-    { name: "6-male-Sunglasses" }, 
-    { name: "6-male-Sunglasses", display_type: 'boost_number' },
-    { name: "9-handobjects-ex doctor" },
-    { name: "10-male-LegToes" },
-    
-    { name: "11-2-doctor-executive-pants" },
-    { name: "11-2-doctor-shirt-executive" },
-    { name: "12-doctor-shoes" },
+ 
+  { name: 'ball', number: 2 },
+  { name: 'eye color', number: 12 },
+  { name: 'iris', number: 3 },
+  { name: 'shine', number: 1 },
+  { name: 'shine', number: 1 },
+ 
+  { name: 'top lid', number: 3 },
 ],
 }, 
 
@@ -247,38 +98,31 @@ layersOrder: [
 
 //regualr advocate
 {
-growEditionSizeTo: 2000,
+growEditionSizeTo: 50,
 layersOrder: [
-    { name: "0-Male Warrior" },
-    { name: "1-male-background" },
-    { name: "2-male-tail" },
-    { name: "3-male-body" },
-    { name: "4-male-eyes" },
-    { name: "5-male-mouth" },
-    { name: "7-advocate-hair" },
-    
-    { name: "11-1-Shirt-advocate" },
-    { name: "9-hand-objects-advocate" },
-    { name: "10-male-LegToes" },
+  { name: 'background', number: 1 },
+  { name: 'ball', number: 2 },
+  
+  { name: 'iris', number: 3 },
+  { name: 'shine', number: 1 },
+  { name: 'shine', number: 1 },
+  { name: 'bottom lid', number: 3 },
+ 
 ],
 },
 
 //regualr shoolam 
 {
-growEditionSizeTo: 3000,
+growEditionSizeTo: 60,
 layersOrder: [
-    { name: "0-Male Warrior" },
-    { name: "1-male-background" },
-    { name: "2-male-tail" },
-    { name: "3-male-body" },
-    { name: "4-male-eyes" },
-    { name: "5-male-mouth" },
-    { name: "7-shoolam-hair" },
-    { name: "11-2-shoolam-boy-shirt" },
-    { name: "12-shoolam-pants" },
-    { name: "9-handobject-shoolam boy" },
-    { name: "10-male-LegToes" },
-    { name: "12-Shoes-shoolam" },
+  { name: 'background', number: 1 },
+  { name: 'ball', number: 2 },
+  { name: 'eye color', number: 12 },
+  { name: 'iris', number: 3 },
+ 
+  { name: 'shine', number: 1 },
+  { name: 'bottom lid', number: 3 },
+  { name: 'top lid', number: 3 },
 ],
 },
 
@@ -342,7 +186,7 @@ const extraAttributes = (_edition) => [
   //
   //if (growEditionSizeTo: 300 
   {
-    trait_type: "0-Male Warrior",
+    trait_type: "Gender",
     value: (_edition % 2 === 0) ? "Male" : "Female",
   },
 
